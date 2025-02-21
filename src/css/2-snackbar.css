@@ -1,0 +1,71 @@
+.form {
+  margin-top: 36px;
+  margin-left: 156px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+input:hover {
+  border: 1px solid #000;
+}
+
+input:active {
+  border: 1px solid #4e75ff;
+}
+
+fieldset {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+fieldset label {
+  flex-direction: row;
+  align-items: center;
+  line-height: 1;
+}
+
+fieldset input {
+  width: 20px;
+  height: 20px;
+  accent-color: #4e75ff;
+}
+
+legend {
+  margin-bottom: 14px;
+  margin-left: 0;
+}
+
+button[type='submit'] {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+}
+
+button[type='submit']:hover {
+  background-color: #6c8cff;
+}

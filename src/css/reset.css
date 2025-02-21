@@ -19,8 +19,7 @@ ul {
 }
 
 a {
-  color: currentColor;
-  text-decoration: none;
+  color: inherit;
 }
 
 button {
@@ -31,4 +30,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+fieldset {
+  margin: 0;
 }
