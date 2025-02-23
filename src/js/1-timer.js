@@ -43,7 +43,7 @@ const options = {
   },
 };
 
-const fp = flatpickr('#datetime-picker', options);
+let fp = flatpickr('#datetime-picker', options);
 
 const timer = {
   intervalId: null,
@@ -79,6 +79,7 @@ const timer = {
     const ms = userSelectedDate.getTime() - Date.now();
     if (ms <= 0) {
       this.stop();
+      return;
     }
     updateTimerDisplay(convertMs(ms));
   },
